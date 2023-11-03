@@ -1,0 +1,13 @@
+@layer components {
+  .auth {
+    @apply flex  min-h-screen;
+
+    &__form {
+      @apply flex bg-white w-1/2 justify-center items-center;
+    }
+
+    &__image {
+      @apply flex-1 bg-primary;
+    }
+  }
+}

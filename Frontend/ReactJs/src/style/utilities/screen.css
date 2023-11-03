@@ -1,0 +1,5 @@
+@layer utilities {
+    .full-screen {
+        @apply w-full h-screen;
+    }
+}

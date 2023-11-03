@@ -1,0 +1,24 @@
+@layer components {
+  .login {
+    @apply flex-center flex-col full-screen gap-[50px];
+    .login__header {
+        @apply font-[600];
+    }
+    &__form {
+      @apply flex-center flex-col gap-[30px] w-[70%];
+      input {
+        @apply w-[80%] border  h-[50px] p-[10px] rounded;
+      }
+      button {
+        @apply bg-primary text-white w-[80%] h-[50px] rounded-lg text-[15px] font-[500];
+      }
+      a {
+        @apply text-blue;
+      }
+
+      &--forgot {
+        @apply w-[80%] flex justify-end mt-[-20px] font-[400];
+      }
+    }
+  }
+}

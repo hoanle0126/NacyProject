@@ -1,0 +1,15 @@
+/* Tailwindcss */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+/* Base */
+@import "./base/base.css";
+/* Utilitites */
+@import "./utilities/flex.css";
+@import "./utilities/screen.css";
+/* Components */
+@import './components/card.css';
+/* Layouts */
+@import "./layouts/auth.css";
+/* Pages */
+@import './pages/login.css';

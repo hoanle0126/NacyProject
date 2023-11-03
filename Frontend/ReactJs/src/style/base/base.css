@@ -1,0 +1,8 @@
+@layer base {
+    h2 {
+        font-size: 22.5px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
